@@ -1,0 +1,123 @@
+* {
+    background-color: aqua;
+    font-style: italic;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: rgb(135, 39, 225);
+    font-size: 40px;
+}
+
+.subtitle {
+    color: rgb(135, 39, 225);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.total {
+    color: rgb(135, 39, 225);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.total-counter {
+    color: rgb(135, 39, 225);
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+}
+
+.todo-btn {
+    background-color: blueviolet;
+    color: rgb(253, 202, 0);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    padding: 10px ;
+    font-size: 30px;
+}
+
+.todo-del_btn {
+    background-color: blueviolet;
+    color: rgb(253, 202, 0);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.todo-done_btn {
+    background-color: blueviolet;
+    color: rgb(253, 202, 0);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.todo-createDate {
+    background-color: blueviolet;
+    color: rgb(253, 202, 0);
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+    padding: 1px;
+}
+
+.input {
+    color: gold;
+    background-color: darkgray;
+    border: 2px solid blueviolet;
+    outline: none;
+    padding: 10px ;
+    font-size: 30px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    flex: 0 1 100%;
+}
+
+.li {
+    color: gold;
+    background-color: darkgray;
+    border: 2px solid blueviolet;
+    outline: none;
+    padding: 10px ;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-notactive {
+    background-color: rgb(245, 5, 129);
+    border: 2px solid rgb(141, 141, 141);
+    outline: none;
+    padding: 10px ;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 50%;
+}
